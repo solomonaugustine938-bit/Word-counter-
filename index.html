@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Page title</title>
+ <link rel="stylesheet" href="index.css">
+ <link rel="icon" href="Austin.jpg">
+</head>
+<body>
+ <header class="head">
+  <h1>DEV Austin web design</h1>
+ </header>
+ <p class="ur">Input Your Text In The Textarea Provided Below </p>
+ <div class="contain">
+ <div class="box">
+  <textarea id="text" placeholder="Type text..." oninput="count()"></textarea>
+  <div class="info">
+   Letters:<span id="Letters">0</span> |
+   Words:<span id="Words">0</span>
+  </div><br>
+  <button onclick="resetText()" class="but">Clear</button>
+  </div>
+  </div>
+  <footer class="dev"><p>Dev Austin web design, copyright &copy;2025</p></footer>
+  <script src="index.js" defer></script>
+</body>
+</html>
